@@ -1,3 +1,6 @@
+//Covariant berguna untuk mengambil data dari class, ditandai dengan "out" sebelum parameter type
+
+
 package app
 
 class Covariant<out T>(val data: T){
